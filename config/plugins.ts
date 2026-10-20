@@ -12,6 +12,7 @@ export const ALL_PLUGIN_NAMES = [
   // 高优先级插件（priority 1-2）— 快速、高质量
   "pansearch",
   "nyaa",
+  "sukebei",
   "susu",
   "wanou",
   "labi",
