@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/huanyu-a/panseek#readme",
   "scripts": {
-    "build": "nuxt build",
+    "build": "NITRO_PRESET=cloudflare-module nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
