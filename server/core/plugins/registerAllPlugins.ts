@@ -7,6 +7,7 @@ import { registerGlobalPlugin } from "./manager";
 // 原有插件
 import { PansearchPlugin } from "./pansearch";
 import { NyaaPlugin } from "./nyaa";
+import { SukebeiPlugin } from "./sukebei";
 import { SusuPlugin } from "./susu";
 import { X1337xPlugin } from "./x1337x";
 // import { ZhizhenPlugin } from "./zhizhen"; // 端点死亡
@@ -107,6 +108,7 @@ import { ThePirateBayPlugin } from "./thepiratebay";
 export function registerAllPlugins(): void {
   // 原有插件（端点死亡的已注释）
   registerGlobalPlugin(new PansearchPlugin());
+  registerGlobalPlugin(new SukebeiPlugin());
   registerGlobalPlugin(new NyaaPlugin());
   registerGlobalPlugin(new SusuPlugin());
   registerGlobalPlugin(new X1337xPlugin());
